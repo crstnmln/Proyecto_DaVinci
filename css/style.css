@@ -151,24 +151,30 @@ html {
     height: 100%;
     max-width: 500px;
     max-height: 500px; */
+    display: flex;
+    justify-content: center;
 }
 .mainHeaderTittle {
     grid-area: mht;
-    padding: 15px 40px 10px 40px;
-    margin-left: 40px;
+    padding: 15px 40px 10px 0px;
+    margin-left: 10px;
     font-size: 2em;
 }
 .mainHeaderText {
     grid-area: mhtx;
     font-size: 1em;
-    padding: 10px 40px;
-    margin-left: 40px;
+    padding: 10px 0px;
+    margin-left: 10px;
 }
 .mainHeaderButton {
     grid-area: mhb;
     font-size: 1em;
-    padding: 10px 40px;
-    margin-left: 40px;
+    padding: 10px 0px;
+    margin-left: 10px;
+}
+.mainHeaderImg{
+    max-width: 100%;
+    height: auto;
 }
 
 @media screen and (min-width: 769px) {
@@ -190,23 +196,29 @@ html {
     .mainHeaderImage {
         grid-area: mhi;
         /* justify-self: strecth minmax(100px, 1fr) fit-content; */
-        justify-self: strecth; /* revisar imagen  */
-        width: 100%;
+        /* justify-self: strecth; */ /* revisar imagen  */
+        /* width: 100%; */
+        display: flex;
+        justify-content: center;
+    }
+    .mainHeaderImg{
+        max-width: 100%;
+        height: auto;
     }
     .mainHeaderTittle {
         grid-area: mht;
-        padding: 15px 40px 10px 40px;
+        padding: 15px 40px 10px 0px;
         font-size: 2em;
     }
     .mainHeaderText {
         grid-area: mhtx;
         font-size: 1em;
-        padding: 10px 40px;
+        padding: 10px 0px;
     }
     .mainHeaderButton {
         grid-area: mhb;
         font-size: 1em;
-        padding: 10px 40px;
+        padding: 10px 0px;
     }
 }
 
