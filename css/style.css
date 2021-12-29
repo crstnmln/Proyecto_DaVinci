@@ -1,5 +1,8 @@
 @charset "UTF-8";
 /* vars */
+/* $gray: #EAEAEA;
+$black: #252A34;
+$transparent: rgba(0, 0, 0, 0); */
 @import url("../css/fonts.css");
 /* @import url('../css/reseter.css');
  */
@@ -16,6 +19,13 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+@media screen and (min-width: 848px) {
+  body {
+    width: 75%;
+    margin: auto;
+  }
 }
 
 /* HEADER */
@@ -124,7 +134,7 @@ html {
   /* grid-template-rows: repeat(7, 75px); 
     grid-template-columns: repeat(5, 1fr);
      */
-  grid: repeat(4, 100px) repeat(3, auto) / repeat(5, 1fr);
+  grid: repeat(4, 100px) repeat(3, auto)/repeat(5, 1fr);
   grid-template-areas: "mhi mhi mhi mhi mhi" "mhi mhi mhi mhi mhi" "mhi mhi mhi mhi mhi" "mhi mhi mhi mhi mhi" "mht mht mht mht ." "mhtx mhtx mhtx mhtx mhtx" "mhb mhb . . .";
   /* . celda vacía */
   /* justify-content: center; */
@@ -174,12 +184,8 @@ html {
     /* grid-template-rows: repeat(7, 75px); 
         grid-template-columns: repeat(5, 1fr);
          */
-    grid: repeat(4, 100px) / repeat(5, 1fr);
-    grid-template-areas:
-      "mhi mhi mhi mht mht"
-      "mhi mhi mhi mhtx mhtx"
-      "mhi mhi mhi mhb mhb"
-      "mhi mhi mhi . .";
+    grid: repeat(4, 100px)/repeat(5, 1fr);
+    grid-template-areas: "mhi mhi mhi mht mht" "mhi mhi mhi mhtx mhtx" "mhi mhi mhi mhb mhb" "mhi mhi mhi . .";
     /* . celda vacía */
     /* justify-content: center; */
   }
@@ -224,8 +230,7 @@ html {
     align-items: center; */
 }
 
-.servicesPublicImg,
-.servicesMobileImg {
+.servicesPublicImg, .servicesMobileImg {
   border-radius: 500px;
   width: 200px;
   height: auto;
@@ -236,8 +241,7 @@ html {
   font-size: 1em;
 }
 
-.servicesPublic,
-.servicesMobile {
+.servicesPublic, .servicesMobile {
   display: flex;
   align-content: center;
   align-items: center;
@@ -245,10 +249,8 @@ html {
   margin: 10px auto;
 }
 
-.servicesPublic p,
-.servicesPublicLink,
-.servicesMobile p,
-.servicesMobileLink {
+.servicesPublic p, .servicesPublicLink,
+.servicesMobile p, .servicesMobileLink {
   padding: 5px;
 }
 
@@ -279,7 +281,8 @@ html {
 .headerMenu a:hover,
 .mainHeaderButton a:hover,
 .servicesPublic p > a:hover,
-.servicesMobile p > a:hover {
+.servicesMobile p > a:hover,
+.bannerBox > a:hover {
   color: #252a34;
   background-color: #eaeaea;
 }
@@ -324,12 +327,12 @@ html {
 .bannerBox a {
   /* revisar codigo */
   margin: 15px auto;
-  font-size: 1rem;
-  padding: 15px;
   text-decoration: none;
   color: #eaeaea;
   background-color: #252a34;
+  padding: 5px;
   border-radius: 4px;
+  font-size: 1rem;
 }
 
 .bannerImg {

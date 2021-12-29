@@ -18,6 +18,13 @@ html {
   scroll-behavior: smooth;
 }
 
+@media screen and (min-width: 848px) {
+  body{
+    width: 75%;
+    margin: auto;
+  }
+}
+
 /* HEADER */
 @media screen and (min-width: 769px) {
   .headerContainer {
@@ -88,7 +95,7 @@ html {
     &Container:hover &Menu {
       display: flex;
       position: absolute;
-      background: $transparent;
+      background: map-get($colors, _transparent);
     }
     /* .headerContainer:hover{
     display: flex;
@@ -102,7 +109,7 @@ html {
         align-items: flex-end;
         position: relative;
         right: 42px;
-        background: $transparent;
+        background: map-get($colors, _transparent);
         li {
           margin: 7px 0px;
         }
@@ -113,19 +120,14 @@ html {
   .mainHeaderButton a,
   .servicesPublic p > a,
   .servicesMobile p > a {
-    text-decoration: none;
-    color: $gray;
-    background-color: $black;
-    padding: 5px;
-    border-radius: 4px;
-    font-size: 1rem;
+    @include btn_style;
   }
   .headerMenu a:hover,
   .mainHeaderButton a:hover,
   .servicesPublic p > a:hover,
   .servicesMobile p > a:hover {
-    color: $black;
-    background-color: $gray;
+    color: map-get($colors, _black);
+    background-color: map-get($colors, _gray);
   }
 }
 
@@ -281,20 +283,16 @@ html {
 .mainHeaderButton a,
 .servicesPublic p > a,
 .servicesMobile p > a {
-  text-decoration: none;
-  color: $gray;
-  background-color: $black;
-  padding: 5px;
-  border-radius: 4px;
-  font-size: 1rem;
+  @include btn_style;
 }
 
 .headerMenu a:hover,
 .mainHeaderButton a:hover,
 .servicesPublic p > a:hover,
-.servicesMobile p > a:hover {
-  color: $black;
-  background-color: $gray;
+.servicesMobile p > a:hover,
+.bannerBox > a:hover {
+  color: map-get($colors, _black);
+  background-color: map-get($colors, _gray);
 }
 
 /* MAIN - BANNER BLOCK */
@@ -332,12 +330,7 @@ html {
   &Box a {
     /* revisar codigo */
     margin: 15px auto;
-    font-size: 1rem;
-    padding: 15px;
-    text-decoration: none;
-    color: $gray;
-    background-color: $black;
-    border-radius: 4px;
+    @include btn_style;
   }
   &Img {
     display: flex;
@@ -423,7 +416,7 @@ html {
 .infoWap a,
 .infoMail a,
 .infoMaps a {
-  color: $black;
+  color: map-get($colors, _black);
   display: inline-block;
 }
 .infoWap p,

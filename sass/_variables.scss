@@ -1,5 +1,20 @@
 /* vars */
 
-$gray: #EAEAEA;
+/* $gray: #EAEAEA;
 $black: #252A34;
-$transparent: rgba(0, 0, 0, 0);
+$transparent: rgba(0, 0, 0, 0); */
+
+$colors: (
+  _gray: #eaeaea,
+  _black: #252a34,
+  _transparent: rgba(0, 0, 0, 0),
+);
+
+@mixin btn_style {
+  text-decoration: none;
+  color: map-get($colors, _gray);
+  background-color: map-get($colors, _black);
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 1rem;
+}
