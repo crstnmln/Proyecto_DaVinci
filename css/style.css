@@ -21,7 +21,7 @@ html {
   scroll-behavior: smooth;
 }
 
-@media screen and (min-width: 848px) {
+@media screen and (min-width: 845px) {
   body {
     width: 75%;
     margin: auto;
@@ -112,7 +112,7 @@ html {
   .servicesMobile p > a {
     text-decoration: none;
     color: #eaeaea;
-    background-color: #252a34;
+    background-color: #2f3841;
     padding: 5px;
     border-radius: 4px;
     font-size: 1rem;
@@ -121,7 +121,7 @@ html {
   .mainHeaderButton a:hover,
   .servicesPublic p > a:hover,
   .servicesMobile p > a:hover {
-    color: #252a34;
+    color: #2f3841;
     background-color: #eaeaea;
   }
 }
@@ -272,7 +272,7 @@ html {
 .servicesMobile p > a {
   text-decoration: none;
   color: #eaeaea;
-  background-color: #252a34;
+  background-color: #2f3841;
   padding: 5px;
   border-radius: 4px;
   font-size: 1rem;
@@ -283,7 +283,7 @@ html {
 .servicesPublic p > a:hover,
 .servicesMobile p > a:hover,
 .bannerBox > a:hover {
-  color: #252a34;
+  color: #2f3841;
   background-color: #eaeaea;
 }
 
@@ -329,7 +329,7 @@ html {
   margin: 15px auto;
   text-decoration: none;
   color: #eaeaea;
-  background-color: #252a34;
+  background-color: #2f3841;
   padding: 5px;
   border-radius: 4px;
   font-size: 1rem;
@@ -421,7 +421,7 @@ html {
 .infoWap a,
 .infoMail a,
 .infoMaps a {
-  color: #252a34;
+  color: #2f3841;
   display: inline-block;
 }
 
