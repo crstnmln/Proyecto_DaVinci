@@ -30,6 +30,12 @@ html {
     margin: auto;
   }
 }
+/* @media screen and (max-width: 844px) {
+  body {
+    width: 100%;
+    margin: auto;
+  }
+} */
 /* HEADER */
 
 @media screen and (min-width: 769px) {
@@ -142,10 +148,13 @@ html {
     background-color: #eaeaea;
   }
 }
+
+/* MAIN */
+
 .mainHeader {
-  font-size: 2em;
+  font-size: 2rem;
   text-align: center;
-  padding: 30px;
+  margin: 25px;
 }
 .box {
   display: flex;
@@ -160,29 +169,45 @@ html {
   justify-content: space-evenly;
 }
 .boxItemHeader {
-  font-size: 3em;
+  font-size: 2rem;
 }
 .boxItemList {
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.2rem;
   font-weight: bold;
+  margin-top: 10px;
 }
 .boxItemTxt {
-  width: 75%;
+  width: 80%;
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.2rem;
   font-weight: lighter;
+  margin-top: 10px;
 }
 .boxItemImg {
   margin-top: 30px;
   display: flex;
   align-items: center;
   align-content: center;
+  max-width: 100%;
+  height: auto;
 }
-.notice {
+
+
+/* .notice {
   font-size: 1.5em;
   display: block;
   width: 45%;
+  margin: 25px auto;
+  padding: 10px;
+  text-align: center;
+}
+ */
+
+.notice {
+  font-size: 1.2rem;
+  display: block;
+  width: 70%;
   margin: 25px auto;
   padding: 10px;
   text-align: center;
@@ -195,15 +220,16 @@ html {
 .personal {
   display: flex;
   justify-content: center;
-  font-size: 1.5em;
-  /* height: 100px; */
-  /* gap: 20px 20px; */
+  font-size: 1.1rem;
+  /* height: 100px;
+  gap: 20px 20px; */
+  margin: auto 20px;
 }
 .personal ul {
   align-self: flex-end;
 }
 .personal h3 {
-  font-size: 1.5em;
+  font-size: 1.5rem;
   padding-right: 20px;
 }
 .personal ul li {
@@ -212,16 +238,15 @@ html {
   margin-left: 20px;
 }
 .transHeader {
-  font-size: 1.5em;
+  font-size: 1.5rem;
   display: block;
-  width: 45%;
+
   margin: 25px auto;
   padding: 10px;
   text-align: center;
 }
-.transactionBox {
-  display: flex;
-}
+
+
 .transactionBox {
   display: flex;
   flex-flow: row wrap;
@@ -243,24 +268,79 @@ html {
 .transactionBoxBnk ul li {
   list-style: initial;
   margin-left: 20px;
-  font-size: 1.1em;
 }
 .transactionBoxNe h4,
 .transactionBoxDav h4,
 .transactionBoxBnk h4 {
-  font-size: 1.5em;
+  font-size: 1.2rem;
   margin-bottom: 20px;
 }
 .transactionBoxBnk ul li {
   margin-top: 20px;
 }
 
-/* 
+@media screen and (max-width: 768px) {
+  .mainHeader {
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 25px;
+  }
+  .box {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .boxItem {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+  }
+  .boxItemHeader {
+    font-size: 1.5rem;
+  }
+  .boxItemList {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .boxItemList li {
+    margin-top: 2.5px;
+  }
+  .boxItemTxt {
+    width: 80%;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    margin-top: 10px;
+  }
+  .boxItemImg {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+  }
+  .notice {
+    font-size: 1rem;
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    padding: 5px;
+    text-align: center;
+  }
+.transactionBox {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  margin: 20px 0px;
+}
 
+}
 
-
-
- */
+/* FOOTER */
 
 .footer {
   padding: 30px;
