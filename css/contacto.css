@@ -142,8 +142,11 @@ html {
     background-color: #eaeaea;
   }
 }
+
+/* MAIN */
+
 .mainHeader {
-  font-size: 2em;
+  font-size: 1.5rem;
   display: block;
   width: 70%;
   margin: auto;
@@ -156,6 +159,7 @@ html {
   align-content: center;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
 .form fieldset {
   padding: 30px;
