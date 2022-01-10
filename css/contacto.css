@@ -148,6 +148,20 @@ html {
 .mainHeader {
   font-size: 1.5rem;
   display: block;
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+} 
+
+.form {
+  display: flex;
+  margin: 20px 40px;
+  
+}
+/* .mainHeader {
+  font-size: 1.5rem;
+  display: block;
   width: 70%;
   margin: auto;
   padding: 10px;
@@ -168,10 +182,10 @@ html {
   border-radius: 10px;
 }
 .form p {
-  /* display: flex; */
+  
   padding: 10px;
   font-size: 1.1em;
-  /* flex-flow: column nowrap; */
+  
 }
 .form .input {
   padding: 5px;
@@ -199,7 +213,7 @@ html {
   background-color: #fff;
   color: rgba(0, 0, 0, 0.6);
 }
-
+ */
 /* 
 .boxButton {
     text-decoration: none;
