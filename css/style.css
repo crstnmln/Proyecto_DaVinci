@@ -219,6 +219,10 @@ html {
   }
 }
 
+.slit-in-vertical {
+  animation: slit-in-vertical 0.45s ease-out both;
+}
+
 /* MAIN - SERVICES BLOCK */
 .services {
   display: flex;

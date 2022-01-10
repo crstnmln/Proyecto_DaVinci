@@ -19,7 +19,7 @@ html {
 }
 
 @media screen and (min-width: 845px) {
-  body{
+  body {
     width: 75%;
     margin: auto;
   }
@@ -231,7 +231,9 @@ html {
     }
   }
 }
-
+.slit-in-vertical {
+  animation: slit-in-vertical 0.45s ease-out both;
+}
 /* MAIN - SERVICES BLOCK */
 
 .services {
