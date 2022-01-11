@@ -12,18 +12,20 @@
   text-decoration: none;
   list-style: none;
   outline: none;
-  background-color: white;
+  color: map-get($colors, _black);
+  
 }
 html {
   scroll-behavior: smooth;
 }
-
 @media screen and (min-width: 845px) {
   body {
     width: 75%;
     margin: auto;
   }
 }
+
+
 
 /* HEADER */
 @media screen and (min-width: 769px) {
@@ -42,19 +44,27 @@ html {
     padding: 25px 40px;
     align-items: center;
     align-content: center;
+    background-color: map-get($colors, _purple);
+    border-radius: 0px 0px 15px 15px;
 
     &Logo {
       a {
         display: flex;
         align-content: center;
+        background-color: map-get($colors, _purple);
       }
       img {
         border-radius: 5px;
+        background-color: map-get($colors, _purple);
       }
     }
 
     &Container {
       display: flex;
+      background-color: map-get($colors, _purple);
+    }
+    &Menu ul{
+      background-color: map-get($colors, _purple);
     }
     &Menu ul li {
       font-size: 1rem;
@@ -74,6 +84,8 @@ html {
     padding: 25px 40px;
     align-items: center;
     align-content: center;
+    background-color: map-get($colors, _purple);
+    border-radius: 0px 0px 15px 15px;
 
     &Menu {
       display: none;
@@ -82,11 +94,13 @@ html {
     &Icon {
       width: 50px;
       height: 50px;
+      background-color: map-get($colors, _purple);
     }
     &Logo {
       a {
         display: flex;
         align-content: center;
+        background-color: map-get($colors, _purple);
       }
       img {
         border-radius: 5px;
@@ -103,6 +117,8 @@ html {
     align-items: center;
 } */
     &Menu {
+      background-color: map-get($colors, _purple);
+      
       ul {
         display: flex;
         flex-direction: column;
@@ -397,8 +413,10 @@ html {
 } */
 /* FOOTER */
 .footer {
-  padding: 30px;
+  padding: 15px;
   /* text-decoration: none; */
+  background-color: map-get($colors, _purple_light2);
+  border-radius: 15px 15px 0px 0px;
 }
 .contactUs {
   padding: 10px;
@@ -407,7 +425,7 @@ html {
 .infoWap,
 .infoMail,
 .infoMaps {
-  padding: 10px;
+  padding: 5px;
   font-size: 1.2rem;
   display: flex;
   /* align-items: center;

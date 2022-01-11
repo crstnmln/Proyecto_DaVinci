@@ -19,7 +19,7 @@
   text-decoration: none;
   list-style: none;
   outline: none;
-  background-color: white;
+  color: #2f3841;
 }
 html {
   scroll-behavior: smooth;
@@ -46,6 +46,8 @@ html {
     padding: 25px 40px;
     align-items: center;
     align-content: center;
+    background-color: #932F6D;
+    border-radius: 0px 0px 15px 15px;
   }
   .headerLogo a {
     display: flex;
@@ -56,6 +58,10 @@ html {
   }
   .headerContainer {
     display: flex;
+    background-color: #932F6D;
+  }
+  .headerMenu ul {
+    background-color: #932F6D;
   }
   .headerMenu ul li {
     font-size: 1rem;
@@ -95,6 +101,8 @@ html {
     padding: 25px 40px;
     align-items: center;
     align-content: center;
+    background-color: #932F6D;
+    border-radius: 0px 0px 15px 15px;
   }
   .headerLogo a {
     display: flex;
@@ -102,6 +110,7 @@ html {
   }
   .headerLogo img {
     border-radius: 5px;
+    background-color: #932F6D;
   }
   .headerContainer:hover .headerMenu {
     display: flex;
@@ -354,7 +363,9 @@ html {
 /* FOOTER */
 
 .footer {
-  padding: 30px;
+  padding: 15px;
+  background-color: #DCCCFF;
+  border-radius: 15px 15px 0px 0px;
   text-decoration: none;
 }
 .contactUs {
@@ -364,7 +375,7 @@ html {
 .infoWap,
 .infoMail,
 .infoMaps {
-  padding: 10px;
+  padding: 5px;
   font-size: 1.2rem;
   display: flex;
   /* align-items: center;

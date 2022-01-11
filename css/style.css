@@ -14,7 +14,7 @@ $transparent: rgba(0, 0, 0, 0); */
   text-decoration: none;
   list-style: none;
   outline: none;
-  background-color: white;
+  color: #2f3841;
 }
 
 html {
@@ -42,16 +42,24 @@ html {
     padding: 25px 40px;
     align-items: center;
     align-content: center;
+    background-color: #932F6D;
+    border-radius: 0px 0px 15px 15px;
   }
   .headerLogo a {
     display: flex;
     align-content: center;
+    background-color: #932F6D;
   }
   .headerLogo img {
     border-radius: 5px;
+    background-color: #932F6D;
   }
   .headerContainer {
     display: flex;
+    background-color: #932F6D;
+  }
+  .headerMenu ul {
+    background-color: #932F6D;
   }
   .headerMenu ul li {
     font-size: 1rem;
@@ -70,6 +78,8 @@ html {
     padding: 25px 40px;
     align-items: center;
     align-content: center;
+    background-color: #932F6D;
+    border-radius: 0px 0px 15px 15px;
     /* .headerContainer:hover{
     display: flex;
     align-content: center;
@@ -82,10 +92,12 @@ html {
   .headerIcon {
     width: 50px;
     height: 50px;
+    background-color: #932F6D;
   }
   .headerLogo a {
     display: flex;
     align-content: center;
+    background-color: #932F6D;
   }
   .headerLogo img {
     border-radius: 5px;
@@ -94,6 +106,9 @@ html {
     display: flex;
     position: absolute;
     background: rgba(0, 0, 0, 0);
+  }
+  .headerMenu {
+    background-color: #932F6D;
   }
   .headerMenu ul {
     display: flex;
@@ -401,8 +416,10 @@ html {
 } */
 /* FOOTER */
 .footer {
-  padding: 30px;
+  padding: 15px;
   /* text-decoration: none; */
+  background-color: #DCCCFF;
+  border-radius: 15px 15px 0px 0px;
 }
 
 .contactUs {
@@ -413,7 +430,7 @@ html {
 .infoWap,
 .infoMail,
 .infoMaps {
-  padding: 10px;
+  padding: 5px;
   font-size: 1.2rem;
   display: flex;
   /* align-items: center;
