@@ -166,8 +166,15 @@ html {
 .form {
   display: flex;
   margin: 20px 40px;
-  
 }
+.btn{
+    color: #eaeaea !important;
+    background-color: #2f3841 !important;
+  }
+   .btn:hover{
+    color: #2f3841 !important;
+    background-color: #eaeaea !important;
+  }
 /* .mainHeader {
   font-size: 1.5rem;
   display: block;
