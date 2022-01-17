@@ -51,7 +51,7 @@ html {
     padding: 25px 40px;
     align-items: center;
     align-content: center;
-    background-color: #932F6D;
+    background-color: #35858B;
     border-radius: 0px 0px 15px 15px;
   }
   .headerLogo a {
@@ -63,10 +63,10 @@ html {
   }
   .headerContainer {
     display: flex;
-    background-color: #932F6D;
+    background-color: #35858B;
   }
   .headerMenu ul {
-    background-color: #932F6D;
+    background-color: #35858B;
   }
   .headerMenu ul li {
     font-size: 1rem;
@@ -106,7 +106,7 @@ html {
     padding: 25px 40px;
     align-items: center;
     align-content: center;
-    background-color: #932F6D;
+    background-color: #35858B;
     border-radius: 0px 0px 15px 15px;
   }
   .headerLogo a {
@@ -115,7 +115,7 @@ html {
   }
   .headerLogo img {
     border-radius: 5px;
-    background-color: #932F6D;
+    background-color: #35858B;
   }
   .headerContainer:hover .headerMenu {
     display: flex;
@@ -261,6 +261,7 @@ html {
   flex-flow: row wrap;
   justify-content: space-evenly;
   margin: 20px 60px;
+  font-size: 0.8rem;
 }
 .transactionBoxNe,
 .transactionBoxDav,
@@ -281,7 +282,7 @@ html {
 .transactionBoxNe h4,
 .transactionBoxDav h4,
 .transactionBoxBnk h4 {
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-bottom: 20px;
 }
 .transactionBoxBnk ul li {
@@ -353,7 +354,7 @@ html {
 
 .footer {
   padding: 15px;
-  background-color: #DCCCFF;
+  background-color: #4FBDBA;
   border-radius: 15px 15px 0px 0px;
   text-decoration: none;
 }

@@ -42,24 +42,24 @@ html {
     padding: 25px 40px;
     align-items: center;
     align-content: center;
-    background-color: #932F6D;
+    background-color: #35858B;
     border-radius: 0px 0px 15px 15px;
   }
   .headerLogo a {
     display: flex;
     align-content: center;
-    background-color: #932F6D;
+    background-color: #35858B;
   }
   .headerLogo img {
     border-radius: 5px;
-    background-color: #932F6D;
+    background-color: #35858B;
   }
   .headerContainer {
     display: flex;
-    background-color: #932F6D;
+    background-color: #35858B;
   }
   .headerMenu ul {
-    background-color: #932F6D;
+    background-color: #35858B;
   }
   .headerMenu ul li {
     font-size: 1rem;
@@ -78,7 +78,7 @@ html {
     padding: 25px 40px;
     align-items: center;
     align-content: center;
-    background-color: #932F6D;
+    background-color: #35858B;
     border-radius: 0px 0px 15px 15px;
     /* .headerContainer:hover{
     display: flex;
@@ -92,12 +92,12 @@ html {
   .headerIcon {
     width: 50px;
     height: 50px;
-    background-color: #932F6D;
+    background-color: #35858B;
   }
   .headerLogo a {
     display: flex;
     align-content: center;
-    background-color: #932F6D;
+    background-color: #35858B;
   }
   .headerLogo img {
     border-radius: 5px;
@@ -108,7 +108,7 @@ html {
     background: rgba(0, 0, 0, 0);
   }
   .headerMenu {
-    background-color: #932F6D;
+    background-color: #35858B;
   }
   .headerMenu ul {
     display: flex;
@@ -359,6 +359,11 @@ html {
   justify-content: center;
 }
 
+.bannerImg img {
+  max-width: 100%;
+  height: auto;
+}
+
 /* MAIN - ADS BLOCK */
 .ads {
   display: flex;
@@ -418,7 +423,7 @@ html {
 .footer {
   padding: 15px;
   /* text-decoration: none; */
-  background-color: #DCCCFF;
+  background-color: #4FBDBA;
   border-radius: 15px 15px 0px 0px;
 }
 
