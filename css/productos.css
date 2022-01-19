@@ -291,17 +291,14 @@ html {
   flex-flow: row wrap;
   justify-content: space-evenly;
   margin: 20px 60px;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
-
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .transactionBox {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    margin: 20px 20px;
+    font-size: 0.8rem;
   }
-} */
+} 
+
 .transactionBoxNe,
 .transactionBoxDav,
 .transactionBoxBnk {
